@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1646815688 source:d:\cours\polytech_ge4a_sem2\esn\tpesn\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1646921182 source:d:\cours\polytech_ge4a_sem2\esn\version2-qualierrmax\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

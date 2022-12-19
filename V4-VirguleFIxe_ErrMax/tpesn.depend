@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1646815688 source:d:\cours\polytech_ge4a_sem2\esn\tpesn\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1648588990 source:d:\cours\polytech_ge4a_sem2\esn\version3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1648631114 source:d:\cours\polytech_ge4a_sem2\esn\v4-virgulefixe_errmax\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
