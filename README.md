@@ -8,9 +8,11 @@ The objectives of this practical work are as follows:
 
 ## II. Task description
 The goal of this project is to create a circuit that calculates the sine and cosine of an angle using the algorithm presented in the previous section. The circuit and its temporal behavior are explained with the next figures.
+
 ![cordic](https://github.com/ahmetkurklu/cordic-implementation/assets/24780090/ea429ff1-d842-473b-970b-a6a00963b89e)
 
 The value of the angle (phi) and the number of iterations (n) are provided as inputs. The availability of these operands is indicated by setting the "start" signal to 1. The circuit acknowledges receipt by setting "rdy" to 0. The operands are then internally stored, and the client can set "start" back to 0. The end of the calculation is signaled by the rising edge of "rdy" to 1. The results, cos(phi) and sin(phi), are then available on the outputs r1 and r2, respectively. The behavior is undefined if "start" transitions to 1 while "rdy" is 0. The "rst" signal allows resetting the circuit.
+
 ![chronograme](https://github.com/ahmetkurklu/cordic-implementation/assets/24780090/6ce15c91-64be-4afb-b427-e6f1b0d7a708)
 
 ## II.1. Step-by-Step Approach
